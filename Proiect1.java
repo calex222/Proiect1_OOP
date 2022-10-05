@@ -50,10 +50,10 @@ public class Proiect1 {
 				System.out.println("Dati pretul cartii: ");
 				pretCarte = sc.nextInt();
 				
-				// Carte c = new Carte(titluCarte, autorCarte, pretCarte);
-				// l.adaugaCarte(c);
+				Carte c = new Carte(titluCarte, autorCarte, pretCarte);
+				l.adaugaCarte(c);
 				
-				l.adaugaCarte(titluCarte, autorCarte, pretCarte);				
+				//l.adaugaCarte(titluCarte, autorCarte, pretCarte);				
 				break;
 				
 				case 3:
